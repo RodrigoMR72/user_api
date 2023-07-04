@@ -15,3 +15,15 @@ npm init -y
 ```js
 npm i nodemon express
 ```
+
+
+Configurar o _package_ para que nosso servidor execute com npm start
+
+```json
+"start": "nodemon server.js",
+```
+
+
+Listar processos na porta XXXX
+
+Encerrar processos na porta XXXX
